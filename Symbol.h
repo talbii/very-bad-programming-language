@@ -74,4 +74,18 @@
 #define Beginstr    "
 #define Endstr      "
 
+/* Arrays & Pointers */
+
+#define Beginarray {
+#define Endarray }
+
+#define Setsize [
+#define Endsize ]
+
+#define Index [
+#define Endindex ]
+
+#define Deref *
+#define Ref &
+
 #endif // _VBPL_Symbol_H
