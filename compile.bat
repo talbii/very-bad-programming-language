@@ -17,7 +17,7 @@ if exist "%uniqueFileName%" goto :uniqLoop
 :: for some reason, code with strings (Beginstr/Endstr) only work if I run the preprocessor seperately.
 gcc -E %SourceFile% > %uniqueFileName%
 
-gcc %uniqueFileName% -o %CurrDirectory_ofile% -x c
+gcc %uniqueFileName% -o %CurrDirectory_ofile%
 
 exit /b 0
 
