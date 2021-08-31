@@ -9,6 +9,12 @@
 /* For Loop */
 
 #define For for
+#define Beginfor (
+#define Endforcondition ; // (you should use Endcondition instead)
+#define Endfor )
+
+#define Beginloop {
+#define Endloop }
 
 /* While Loop */
 
