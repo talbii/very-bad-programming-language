@@ -4,10 +4,10 @@
 /* Preprocessor-Preprocessor... thingies */
 
 #define Include #include
-#define PrepStringify(x, y, z) #x ## #y ## #z
-#define IncludeLeft "<"
-#define IncludeRight ">"
-
+#define _comment(x)
+#define Comment _comment
+#define Begincomment (
+#define Endcomment )
 
 /* Main */
 
@@ -48,5 +48,15 @@
 #define SInt signed int
 #define ULong unsigned long
 #define SLong signed long
+
+#define Sizet size_t
+
+/* struct & typedef */
+
+#define Struct struct
+#define Beginstruct {
+#define Endstruct }
+
+#define Typedef typedef
 
 #endif // _VBPL_Preprocessor_H
