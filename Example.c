@@ -1,7 +1,5 @@
-#include "language.h"               // <-- good luck getting that one
-#include "packages/vbpl_stdio.h"    // <-- and this one
-
-#define Print printf
+#include "language.h"                // <-- good luck getting that one Endcomment
+#include "packages/vbpl_stdio.h"     // <-- and this one Endcomment
 
 Main Do
 
