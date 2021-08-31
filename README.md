@@ -32,3 +32,16 @@ $ compile.sh [Filename] [Any additional arguments]
 ```
 
 notice how you don't need to write the filename :-). In the `[Any additional arguments]` sections, simply write any additional arguments to the compiler (for example: `$ compile.sh myfile Ofast v` which translates to: `$ gcc myfile.c -Ofast -v`).
+
+## Compiling Manually
+
+If you are still reading this, then thanks I guess? To compile manually, enter the following commands:
+
+```shell
+$ gcc -E [file] > "[temp file]"
+$ gcc [temp file] -o [output name]
+optionally:
+$ rm [temp file] # remove the temp file
+```
+
+essentially, the first command "precompiles" (?) the file (it actually runs the preprocessor), because for some odd reason `gcc` doesn't like compiling the source code (shocker!), which outputs the code expanded without macros, and then the second command just compiles the code normally.
