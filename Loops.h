@@ -6,6 +6,12 @@
 #define Condition (
 #define Endcondition )
 
+/* Branch control (if) */
+
+#define If if
+#define Beginif {
+#define Endif }
+
 /* For Loop */
 
 #define For for

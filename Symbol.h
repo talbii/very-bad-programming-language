@@ -85,7 +85,11 @@
 #define Index [
 #define Endindex ]
 
+#define Pointer *
 #define Deref *
 #define Ref &
+
+#define Accesfield .
+#define Getfield ->
 
 #endif // _VBPL_Symbol_H

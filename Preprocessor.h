@@ -27,8 +27,11 @@
 /* Reserved Keywords */
 
 #define Return return
+#define Sizeof sizeof
 
 /* Built-in Types */
+
+#define Void void
 
 #define Char char
 #define Short short
@@ -56,6 +59,8 @@
 #define Struct struct
 #define Beginstruct {
 #define Endstruct }
+#define Endfield ;
+#define Bitfield :
 
 #define Typedef typedef
 

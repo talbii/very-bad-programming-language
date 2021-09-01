@@ -5,6 +5,11 @@
 #define Endarg ,
 #define Endarguments )
 
+#define Beginarguments (
+#define Endarguments )
+#define Beginfunction {
+#define Endfunction }
+
 #define Enddeclaration ,
 #define Endeclr ,
 
