@@ -6,7 +6,7 @@ Lets say you are stuck with a computer, and a keyboard, on an island, and to sav
 
 - A~Z
 - a~z
-- 0~9
+- 0~9 (*not required using package `numless`*)
 
 worry do not! for *very bad programming language* is to your rescue!
 
