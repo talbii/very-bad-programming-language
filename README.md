@@ -18,7 +18,7 @@ As a reference, all language commands begin with a Capital Letter, for example: 
 
 ## Running
 
-Included are two scripts: `compile.bat` (for Windows) and `compile.sh` for *nix machines. On your machine, one of the following compilers **must** be present:
+Included are two scripts: `compile.bat` (for Windows) and `compile.sh` (for *nix machines). On your machine, one of the following compilers **must** be present:
 
 - `gcc`
 - `clang`
@@ -31,7 +31,7 @@ Following our "typewriter" keyboard, to compile such program, use:
 $ compile.sh [Filename] [Any additional arguments]
 ```
 
-notice how you don't need to write the filename :-). In the `[Any additional arguments]` sections, simply write any additional arguments to the compiler (for example: `$ compile.sh myfile Ofast v` which translates to: `$ gcc myfile.c -Ofast -v`).
+notice how you don't need to write the file extension :-). In the `[Any additional arguments]` sections, simply write any additional arguments to the compiler (for example: `$ compile.sh myfile Ofast v` which translates to: `$ gcc myfile.c -Ofast -v`).
 
 ## Compiling Manually
 
